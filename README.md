@@ -40,7 +40,7 @@ ln -sT $(pwd)/.zshrc /home/use/.zshrc
 - Install Hyprland and common utilities (example):
 
 ```bash
-sudo pacman -Syu hyprland waybar wofi kitty wl-clipboard grim slurp mako swaybg
+sudo pacman -Syu hyprland waybar wofi kitty wl-clipboard grim slurp mako hyprpaper swaync nwg-look 
 ```
 
 - If you use a compositor-specific wallpaper daemon (e.g. `hyprpaper`) or notification daemon (`mako`), install and enable them.
