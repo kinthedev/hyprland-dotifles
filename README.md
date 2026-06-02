@@ -57,11 +57,6 @@ sudo pacman -Syu hyprland waybar wofi kitty wl-clipboard grim slurp mako hyprpap
 - `images/`, `wallpapers/` — wallpapers and images referenced by the configs.
 - `scripts/` and `hypr/scripts/` — helper scripts to manage monitors, toggle desktop, and other utilities.
 
-## Customization tips
-
-- Edit `hypr/hyprland.conf` to adapt keybindings and workspace rules to your hardware.
-- Update absolute paths in configs (wallpapers, scripts) if you copied the repo to a different folder.
-- For monitor-specific layouts, inspect `hypr/monitors.conf` and `hypr/monitors.lua` and adapt per your displays.
 
 ## Troubleshooting
 
@@ -74,10 +69,6 @@ mkdir -p /home/use/.config/hypr && printf "# minimal" > /home/use/.config/hypr/h
 
 - Use `journalctl` or the TTY logs to inspect errors from Hyprland and related services.
 
-## Want me to automate this?
 
-- I can add a small installer script that creates backups, copies or symlinks files, and optionally installs required packages on Arch. Tell me if you'd like that.
-
----
 
 Last updated: 2026-06-02
